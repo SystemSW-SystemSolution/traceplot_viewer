@@ -62,14 +62,13 @@ const navItems: NavItem[] = [
     name: "Calendar",
     path: "/calendar",
   },
-  // {
-  //   name: "Pages",
-  //   icon: <PageIcon />,
-  //   subItems: [
-  //     { name: "Blank Page", path: "/blank", pro: false },
-  //     { name: "404 Error", path: "/error-404", pro: false },
-  //   ],
-  // },
+  {
+    name: "Pages",
+    icon: <PageIcon />,
+    subItems: [
+      { name: "Plot", path: "/plot", pro: false },
+    ],
+  },
 ];
 
 const othersItems: NavItem[] = [
